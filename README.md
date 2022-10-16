@@ -1,47 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and styling with [`tailwindcss`](https://tailwindcss.com/docs/installation). Additional plugins were added to the `tailwindcss` configuration such as `@tailwindcss/typography` and `@tailwindcss/forms`.
+## Overview
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and styling with [`tailwindcss`](https://tailwindcss.com/docs/installation). Additional plugins were added to the `tailwindcss` configuration such as `@tailwindcss/typography` and `@tailwindcss/forms`. The databse used for the project is `@supabase` .
+  
 The project was created with the purpose of better hour tracking for the licensure of medical professions such as LMFT and more, instead of using excel spreadsheets.
 
-## Getting Started
+## Components 
 
-First, run the development server:
+#### Framework : 
+- Next.js - [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+#### CSS: 
+- Tailwindcss - [`tailwindcss`](https://tailwindcss.com/docs/installation)
+	- Plugins used: [`@tailwindcss/typography`](https://tailwindcss.com/docs/typography-plugin) [`@tailwindcss/forms`](https://github.com/tailwindlabs/tailwindcss-forms)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Database: 
+- Supabase - [`@supabase/supabase-js`](https://supabase.com/docs/)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### Auth: 
+- Supabase Auth - [`@supabase/@supabase/auth-ui-react`](https://supabase.com/docs/guides/auth/auth-helpers/auth-ui)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-To learn more about Tailwindcss, take a look at the following resources:
-
--   [Tailwindcss Documentation](https://tailwindcss.com/docs/installation) - learn about Tailwindcss features and API.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## TODO:
 
 - [x] Setup base skeleton
+
 - [x] Implementation of Supabase Authentication - Partial Authentication completed
+
 - [ ] Implementation of Supabase Database connection
+
+- [ ] Fix sessions to allow persisted connections using state context
+
 - [ ] Conifgure Hours form to input the hours and submit to supabase db
+
+- [ ] Complete/Finish Auth implementation and Form
+
+- [ ] Setup/Configure Profile page
+
+- [ ] Setup/Configure Sites and Supervisors
+
+- [ ] Figure out PDF Generation and output
