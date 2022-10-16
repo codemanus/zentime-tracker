@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and styling with [`tailwindcss`](https://tailwindcss.com/docs/installation). Additional plugins were added to the `tailwindcss` configuration such as `@tailwindcss/typography` and `@tailwindcss/forms`.
 
+The project was created with the purpose of better hour tracking for the licensure of medical professions such as LMFT and more, instead of using excel spreadsheets.
+
 ## Getting Started
 
 First, run the development server:
