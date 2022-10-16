@@ -119,7 +119,11 @@ export default function Navbar() {
                                 />
                             </svg>
                         )}
-
+                        <div className="relative ml-3">
+                            <div>
+                                <NavLink to="/account/profile">Account</NavLink>
+                            </div>
+                        </div>
                         {/* <!-- Profile dropdown --> */}
                         <div className="relative ml-3">
                             <div>
