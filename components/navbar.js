@@ -16,7 +16,7 @@ function NavLink({ to, children }) {
 export default function Navbar() {
     const { theme, setTheme } = useTheme()
     return (
-        <nav className="bg-white dark:bg-slate-700 shadow-lg">
+        <nav className="bg-white dark:bg-slate-600 shadow-lg">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -60,7 +60,7 @@ export default function Navbar() {
                     </div>
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex flex-shrink-0 items-center font-bold">
-                            <Link className="" href="/">
+                            <Link className="text-base" href="/">
                                 <a>zenTime</a>
                             </Link>
                         </div>

@@ -12,26 +12,25 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="">
-                <div className="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
-                    <div className="">
-                        <div className="grid place-items-center ">
-                            <div>
-                                <h1
-                                    className="text-3xl text-cyan-500 py-6"
-                                    css={{ backgroundColor: 'cyan' }}
-                                >
-                                    Welcome to zenTime!
-                                </h1>
-                                <p className="">
-                                    A time tracking application to make tracking
-                                    your hours for licensure, much, much easier
-                                </p>
-                            </div>
+            <div className="container my-24 px-6 mx-auto">
+                <section className="mb-32 text-gray-800 text-center">
+                    <div className="flex justify-center">
+                        <div className="max-w-[800px]">
+                            <h2 className="text-5xl md:text-6xl xl:text-7xl text-cyan-500 font-bold tracking-tight mb-12">
+                                - zenTime -<br />
+                                <span className="text-gray-700 dark:text-gray-500">
+                                    An app for your hours
+                                </span>
+                            </h2>
+                            <p className="text-gray-500 text-lg">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Minima officia consequatur
+                                adipisci tenetur repudiandae rerum quos.
+                            </p>
                         </div>
                     </div>
-                </div>
-            </main>
+                </section>
+            </div>
         </div>
     )
 }
