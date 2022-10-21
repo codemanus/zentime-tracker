@@ -2,6 +2,7 @@ import { RadioGroup } from '@headlessui/react'
 import { useState } from 'react'
 import OptionMenu from './optionMenu'
 
+// fake data generation from https://fake-generator.vercel.app/
 const sites = [
     {
         id: '718110ea-b9d5-4489-9ba4-ea1374715fab',
