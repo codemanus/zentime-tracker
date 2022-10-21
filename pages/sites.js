@@ -1,38 +1,28 @@
 import Head from 'next/head'
+import SiteLocation from '../components/sites/sitesData'
+import SupervisorInformation from '../components/supervisor/supervisorData'
 const Sites = () => {
     return (
-        <div>
+        <div className="">
             <Head>
                 <title>Sites - zenTime</title>
             </Head>
-            <div className="mx-auto my-8 max-w-7xl py-6 px-6 sm:px-6 rounded lg:px-8 shadow-lg bg-cyan-500 dark:bg-cyan-500 overflow-hidden ">
+            <div className="mx-auto my-8 max-w-7xl py-6  sm:px-6 rounded lg:px-8 shadow-lg bg-cyan-500 dark:bg-cyan-500 ">
                 <header className="  ">
                     <h1 className="text-3xl font-bold tracking-tight text-gray-100">
-                        Sites and Supervisor
+                        Sites and Supervisors
                     </h1>
                 </header>
             </div>
             <main>
-                <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 dark:bg-grey-900">
-                    {/* Replace with your content */}
-                    <div className="px-4 py-6 sm:px-0">
-                        <div className="h-96 rounded-lg border-4 border-dashed border-gray-200 bg-gray-200 dark:bg-slate-600 text-center shadow-lg">
-                            <h1 className="text-3xl">Sites Information</h1>
-                        </div>
-                    </div>
-                    {/* /End replace */}
+                <div className="mx-auto my-8 max-w-7xl py-0 px-6 sm:px-6 lg:px-8 shadow-lg rounded bg-gray-200 dark:bg-slate-600 overflow-visible">
+                    <SiteLocation />
                 </div>
-                <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 dark:bg-grey-900">
-                    {/* Replace with your content */}
-                    <div className="px-4 py-6 sm:px-0">
-                        <div className="h-96 rounded-lg border-4 border-dashed border-gray-200 bg-gray-200 dark:bg-slate-600 text-center shadow-lg">
-                            <h1 className="text-3xl">
-                                Supervisor Information Form Location
-                            </h1>
-                        </div>
-                    </div>
-                    {/* /End replace */}
+                <div className=""></div>
+                <div className="mx-auto my-8 max-w-7xl py-0 px-6 sm:px-6 lg:px-8 shadow-lg rounded bg-gray-200 dark:bg-slate-600">
+                    <SupervisorInformation></SupervisorInformation>
                 </div>
+                <div className=""></div>
             </main>
         </div>
     )

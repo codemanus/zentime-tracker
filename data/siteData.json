@@ -1,0 +1,26 @@
+[
+  {
+    "id": "718110ea-b9d5-4489-9ba4-ea1374715fab",
+    "site": "Dynamic Web Specialist",
+    "site_address": "65860 Kovacek Summit",
+    "site_zip": "50883-0849",
+    "site_state": "MT",
+    "site_phone": "337-583-5626"
+  },
+  {
+    "id": "62136018-9cfd-499f-91ec-61f60cecc477",
+    "site": "District Group Manager",
+    "site_address": "965 Avery Wall",
+    "site_zip": "25270-0633",
+    "site_state": "RI",
+    "site_phone": "646-365-4976"
+  },
+  {
+    "id": "7bbe4f61-1076-48bb-b0e5-cd41577e335c",
+    "site": "National Factors Architect",
+    "site_address": "1000 Ward Lane",
+    "site_zip": "93795-9473",
+    "site_state": "LA",
+    "site_phone": "678-479-1673"
+  }
+]

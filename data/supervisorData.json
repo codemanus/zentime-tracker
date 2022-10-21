@@ -1,0 +1,39 @@
+[
+  {
+    "id": "e642a5c0-41c8-4d1c-a981-da251189bf0e",
+    "supervisor_firstName": "Hildegard",
+    "supervisor_lastName": "Bernhard",
+    "supervisor_zip": "01734-8221",
+    "supervisor_state": "GA",
+    "supervisor_address": "78257 Metz Streets",
+    "supervisor_phone": "371-727-1818",
+    "supervisor_title": "Corporate Assurance Orchestrator",
+    "supervisor_licenseIssue": "2022-03-08T11:20:27.909Z",
+    "supervisor_licenseExpiry": "2023-03-16T09:30:17.574Z"
+  },
+  {
+    "id": "a44b754d-ad2b-4ca6-b5ad-83dbca94c074",
+    "supervisor_firstName": "Brook",
+    "supervisor_lastName": "Marvin",
+    "supervisor_zip": "58601",
+    "supervisor_state": "IL",
+    "supervisor_address": "769 Gennaro Mountains",
+    "supervisor_phone": "541-395-7127",
+    "supervisor_title": "Senior Factors Architect",
+    "supervisor_licenseIssue": "2021-12-10T19:45:16.294Z",
+    "supervisor_licenseExpiry": "2022-12-06T03:33:47.657Z"
+  },
+  {
+    "id": "503987f9-98a5-4624-9eb0-58a6125c4ed7",
+    "supervisor_firstName": "Mylene",
+    "supervisor_lastName": "Douglas",
+    "supervisor_zip": "15880",
+    "supervisor_state": "MD",
+    "supervisor_address": "72481 Anika Dale",
+    "supervisor_phone": "371-749-6347",
+    "supervisor_title": "Dynamic Intranet Supervisor",
+    "supervisor_licenseIssue": "2022-09-20T05:11:05.844Z",
+    "supervisor_licenseExpiry": "2023-08-18T09:00:40.323Z"
+  }
+]
+
